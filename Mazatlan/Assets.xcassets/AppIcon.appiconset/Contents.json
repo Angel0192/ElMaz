@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "BCBC7CB0-1845-4CCB-8F4D-AB639A776398_adobe_express.jpeg",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

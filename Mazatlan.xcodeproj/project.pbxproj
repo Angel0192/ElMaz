@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1596F2F2A3C478E00143BBA /* CloverAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1596F2E2A3C478E00143BBA /* CloverAPI.swift */; };
+		C168E6022A31246B005B4EF1 /* MazatlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6012A31246B005B4EF1 /* MazatlanApp.swift */; };
+		C168E6042A31246B005B4EF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6032A31246B005B4EF1 /* ContentView.swift */; };
+		C168E6062A31246B005B4EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C168E6052A31246B005B4EF1 /* Assets.xcassets */; };
+		C168E6092A31246B005B4EF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C168E6082A31246B005B4EF1 /* Preview Assets.xcassets */; };
+		C168E6132A312531005B4EF1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6122A312531005B4EF1 /* SplashScreen.swift */; };
+		C168E6152A312561005B4EF1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6142A312561005B4EF1 /* HomeView.swift */; };
+		C168E6172A312590005B4EF1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6162A312590005B4EF1 /* Menu.swift */; };
+		C168E6192A3125B9005B4EF1 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6182A3125B9005B4EF1 /* CartManager.swift */; };
+		C168E61B2A312607005B4EF1 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E61A2A312607005B4EF1 /* ProductRow.swift */; };
+		C168E61D2A312645005B4EF1 /* CartProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E61C2A312645005B4EF1 /* CartProductRow.swift */; };
+		C168E61F2A312668005B4EF1 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E61E2A312668005B4EF1 /* CartButton.swift */; };
+		C168E6212A312695005B4EF1 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6202A312695005B4EF1 /* CartView.swift */; };
+		C168E6232A3126C0005B4EF1 /* CustomizeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168E6222A3126C0005B4EF1 /* CustomizeItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C168E63E2A315FA3005B4EF1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1596F2E2A3C478E00143BBA /* CloverAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloverAPI.swift; sourceTree = "<group>"; };
+		C168E5FE2A31246B005B4EF1 /* Mazatlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mazatlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C168E6012A31246B005B4EF1 /* MazatlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazatlanApp.swift; sourceTree = "<group>"; };
+		C168E6032A31246B005B4EF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C168E6052A31246B005B4EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C168E6082A31246B005B4EF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C168E6122A312531005B4EF1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		C168E6142A312561005B4EF1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C168E6162A312590005B4EF1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C168E6182A3125B9005B4EF1 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		C168E61A2A312607005B4EF1 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		C168E61C2A312645005B4EF1 /* CartProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductRow.swift; sourceTree = "<group>"; };
+		C168E61E2A312668005B4EF1 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		C168E6202A312695005B4EF1 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		C168E6222A3126C0005B4EF1 /* CustomizeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C168E5FB2A31246B005B4EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C168E5F52A31246B005B4EF1 = {
+			isa = PBXGroup;
+			children = (
+				C168E6002A31246B005B4EF1 /* Mazatlan */,
+				C168E5FF2A31246B005B4EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C168E5FF2A31246B005B4EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C168E5FE2A31246B005B4EF1 /* Mazatlan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C168E6002A31246B005B4EF1 /* Mazatlan */ = {
+			isa = PBXGroup;
+			children = (
+				C168E6012A31246B005B4EF1 /* MazatlanApp.swift */,
+				C168E6032A31246B005B4EF1 /* ContentView.swift */,
+				C168E6112A312495005B4EF1 /* Data */,
+				C168E6102A312487005B4EF1 /* Components */,
+				C168E60F2A31247D005B4EF1 /* Views */,
+				C168E6052A31246B005B4EF1 /* Assets.xcassets */,
+				C168E6072A31246B005B4EF1 /* Preview Content */,
+			);
+			path = Mazatlan;
+			sourceTree = "<group>";
+		};
+		C168E6072A31246B005B4EF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C168E6082A31246B005B4EF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C168E60F2A31247D005B4EF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C168E6122A312531005B4EF1 /* SplashScreen.swift */,
+				C168E6142A312561005B4EF1 /* HomeView.swift */,
+				C168E6202A312695005B4EF1 /* CartView.swift */,
+				C168E6222A3126C0005B4EF1 /* CustomizeItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C168E6102A312487005B4EF1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C168E61A2A312607005B4EF1 /* ProductRow.swift */,
+				C168E61C2A312645005B4EF1 /* CartProductRow.swift */,
+				C168E61E2A312668005B4EF1 /* CartButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C168E6112A312495005B4EF1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C168E6162A312590005B4EF1 /* Menu.swift */,
+				C168E6182A3125B9005B4EF1 /* CartManager.swift */,
+				C1596F2E2A3C478E00143BBA /* CloverAPI.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C168E5FD2A31246B005B4EF1 /* Mazatlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C168E60C2A31246B005B4EF1 /* Build configuration list for PBXNativeTarget "Mazatlan" */;
+			buildPhases = (
+				C168E5FA2A31246B005B4EF1 /* Sources */,
+				C168E5FB2A31246B005B4EF1 /* Frameworks */,
+				C168E5FC2A31246B005B4EF1 /* Resources */,
+				C168E63E2A315FA3005B4EF1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mazatlan;
+			productName = Mazatlan;
+			productReference = C168E5FE2A31246B005B4EF1 /* Mazatlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C168E5F62A31246B005B4EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C168E5FD2A31246B005B4EF1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C168E5F92A31246B005B4EF1 /* Build configuration list for PBXProject "Mazatlan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C168E5F52A31246B005B4EF1;
+			productRefGroup = C168E5FF2A31246B005B4EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C168E5FD2A31246B005B4EF1 /* Mazatlan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C168E5FC2A31246B005B4EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C168E6092A31246B005B4EF1 /* Preview Assets.xcassets in Resources */,
+				C168E6062A31246B005B4EF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C168E5FA2A31246B005B4EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C168E6212A312695005B4EF1 /* CartView.swift in Sources */,
+				C168E6132A312531005B4EF1 /* SplashScreen.swift in Sources */,
+				C168E6192A3125B9005B4EF1 /* CartManager.swift in Sources */,
+				C1596F2F2A3C478E00143BBA /* CloverAPI.swift in Sources */,
+				C168E61D2A312645005B4EF1 /* CartProductRow.swift in Sources */,
+				C168E6152A312561005B4EF1 /* HomeView.swift in Sources */,
+				C168E6232A3126C0005B4EF1 /* CustomizeItem.swift in Sources */,
+				C168E6042A31246B005B4EF1 /* ContentView.swift in Sources */,
+				C168E61F2A312668005B4EF1 /* CartButton.swift in Sources */,
+				C168E61B2A312607005B4EF1 /* ProductRow.swift in Sources */,
+				C168E6022A31246B005B4EF1 /* MazatlanApp.swift in Sources */,
+				C168E6172A312590005B4EF1 /* Menu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C168E60A2A31246B005B4EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C168E60B2A31246B005B4EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C168E60D2A31246B005B4EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mazatlan/Preview Content\"";
+				DEVELOPMENT_TEAM = 52PX9K2HN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "El Mazatlan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = angelLopez.Mazatlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C168E60E2A31246B005B4EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mazatlan/Preview Content\"";
+				DEVELOPMENT_TEAM = 52PX9K2HN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "El Mazatlan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = angelLopez.Mazatlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C168E5F92A31246B005B4EF1 /* Build configuration list for PBXProject "Mazatlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C168E60A2A31246B005B4EF1 /* Debug */,
+				C168E60B2A31246B005B4EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C168E60C2A31246B005B4EF1 /* Build configuration list for PBXNativeTarget "Mazatlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C168E60D2A31246B005B4EF1 /* Debug */,
+				C168E60E2A31246B005B4EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C168E5F62A31246B005B4EF1 /* Project object */;
+}
